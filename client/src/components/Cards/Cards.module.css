@@ -1,0 +1,40 @@
+.Card_Box {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(161, 92, 92, 0.37);
+    backdrop-filter: blur(2px);
+    width: calc(25% - 2rem); /* Ajusta el ancho para cuatro columnas */
+    height: 350px;
+    transition: 0.5s;
+    margin: 0 1rem 2rem;
+    display: inline-block; /* Muestra las cajas en línea */
+    margin-top: 4%;
+  }
+  
+  .Card_Box:hover {
+    transform: scale(1.08);
+  }
+
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .selectContainer {
+    margin: 10px;
+  }
+  
+  .selectContainer select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+

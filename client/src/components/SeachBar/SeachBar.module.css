@@ -1,0 +1,62 @@
+.SeachBar {
+    margin-bottom: 10px;
+    }
+    
+    .SeachBar input {
+    padding: 8px;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    }
+    
+    .SeachBar button {
+    padding: 8px 12px;
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .SeachBar button:hover {
+    background-color: #eaeaea;
+    }
+
+/* Estilos generales del botón */
+.reload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Estilos al pasar el cursor sobre el botón */
+  .reload-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos cuando el botón está presionado */
+  .reload-button:active {
+    background-color: #3e8e41;
+  }
+  
+  /* Estilos cuando el botón está desactivado o deshabilitado */
+  .reload-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Estilos para el ícono de recarga dentro del botón (fuente FontAwesome utilizada aquí) */
+  .reload-button .fa {
+    margin-right: 5px;
+  }

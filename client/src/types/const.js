@@ -1,0 +1,25 @@
+export const GET_COUNTRYS = 'GET_COUNTRYS';
+
+export const ORDER_BY_POPULATION = 'ORDER_BY_POPULATION' 
+
+export const HIGHER_POPULATION = 'HIGHER_POPULATION'
+
+export const LESS_POPULATION = 'LESS_POPULATION'
+
+export const ORDER_BY_NAME = 'ORDER_BY_NAME'
+
+export const ASC = 'ASC'
+
+export const FILTER_BY_CONTINENT = 'FILTER_BY_CONTINENT'
+
+export const SEARCH_COUNTRIES = 'SEARCH_COUNTRIES'
+
+export const FILTER_BY_ACTIVITIES = 'FILTER_BY_ACTIVITIES'
+
+export const GET_ACTIVITIES = "GET_ACTIVITIES"
+
+export const POST_ACTIVITIES = "POST_ACTIVITIES"
+
+export const DETAIL = "DETAIL"
+
+export const RESET = "RESET"
